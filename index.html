@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MLP Kayou Collection Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">
+    <div class="logo">MLP</div>
+    <div>
+      <h1>MLP Kayou Collection Tracker</h1>
+      <p>Built from Goda's collector checklist • updated by Bow</p>
+    </div>
+  </div>
+  <div class="header-actions">
+<a class="btn about-donate-btn" href="about.html">About/Donate</a>
+
+    <button id="backupBtn">Backup JSON</button>
+    <label class="btn">Import Backup<input id="importBackup" type="file" accept="application/json" hidden></label>
+  </div>
+</header>
+
+<section class="dashboard">
+  <article><b id="statTotal">0</b><span>Cards Showing</span></article>
+  <article><b id="statOwned">0</b><span>Unique Owned</span></article>
+  <article><b id="statMissing">0</b><span>Missing</span></article>
+  <article><b id="statDupes">0</b><span>Duplicates</span></article>
+  <article class="wide"><b id="statPercent">0%</b><span>Completion</span><div class="bar"><i id="bar"></i></div></article>
+</section>
+
+<nav class="tabs">
+  <button data-view="home" class="active">Home / Sets</button>
+  <button data-view="collection">Collection</button>
+  <button data-view="owned">Owned</button>
+  <button data-view="missing">Missing</button>
+  <button data-view="dupes">Duplicates</button>
+  <button data-view="wishlist">Wishlist</button>
+  <button data-view="sets">Set Stats</button>
+  <button data-view="rarities">Rarities</button>
+  <button data-view="info">Info</button>
+</nav>
+
+<section class="filters">
+  <input id="searchInput" placeholder="Search card name, printed code, set, rarity, year...">
+  <select id="yearFilter"><option value="">All Years</option></select>
+  <select id="setFilter"><option value="">All Sets</option></select>
+  <select id="rarityFilter"><option value="">All Rarities</option></select>
+  <button id="clearBtn">Clear</button>
+</section>
+
+<section class="tools">
+  <button id="exportCsvBtn">Export Showing CSV</button>
+  <button id="exportSetCsvBtn">Export Selected Set CSV</button>
+  <button id="neededCsvBtn">Export Missing CSV</button>
+  <button id="dupesCsvBtn">Export Duplicates CSV</button>
+  <button id="exportJsonBtn">Export Collection JSON</button>
+  <button id="resetBtn" class="danger">Reset Local Saves</button>
+</section>
+
+<section class="notice">
+  <b>Images:</b> The spreadsheet has card names, codes, rarities, set names, and release dates. It does not include image URLs. Each card has a <b>Find Image</b> button, and you can paste a card image URL into the card details. This keeps the tracker lightweight and mostly local.
+</section>
+
+<main id="content"></main>
+
+<dialog id="cardDialog">
+  <button id="closeDialog" class="close">×</button>
+  <div class="detail">
+    <div class="imagePanel">
+      <div id="bigImage" class="bigImage">No Image</div>
+      <button id="findImageBtn" type="button">Find Image Online</button>
+    </div>
+    <form id="cardForm">
+      <h2 id="detailTitle">Card</h2>
+      <input id="editId" type="hidden">
+      <div class="formGrid">
+        <label>Card Name<input id="cardName"></label>
+        <label>Printed Code<input id="cardNumber"></label>
+        <label>Set<input id="setName"></label>
+        <label>Sheet<input id="sheetName"></label>
+        <label>Year<input id="year"></label>
+        <label>Rarity<input id="rarity"></label>
+        <label>Image URL<input id="image" placeholder="Paste card image URL here"></label>
+        <label>Chinese Qty<input id="chineseQty" type="number" min="0"></label>
+        <label>English Qty<input id="englishQty" type="number" min="0"></label>
+        <label>Total Qty<input id="quantity" type="number" min="0"></label>
+        <label>Duplicate Count<input id="duplicateCount" type="number" min="0"></label>
+      </div>
+      <div class="checks">
+        <label><input id="owned" type="checkbox"> Owned</label>
+        <label><input id="wishlist" type="checkbox"> Wishlist / Need Priority</label>
+      </div>
+      <label>Notes<textarea id="notes"></textarea></label>
+      <div class="formBtns">
+        <button type="submit" class="primary">Save</button>
+        <button type="button" id="plusEnglishBtn">+1 English</button>
+        <button type="button" id="plusChineseBtn">+1 Chinese</button>
+        <button type="button" id="plusDupeBtn">+1 Duplicate</button>
+        <button type="button" id="markNeedBtn">Mark Needed</button>
+      </div>
+    </form>
+  </div>
+</dialog>
+
+<script src="data/cards.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

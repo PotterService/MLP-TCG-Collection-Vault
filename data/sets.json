@@ -1,0 +1,338 @@
+[
+  {
+    "id": "Moon_1",
+    "name": "Brilliant-Bright Moon Box 1",
+    "sheetName": "Moon 1",
+    "releaseDate": "Release Date: October 2021",
+    "year": "2021"
+  },
+  {
+    "id": "Moon_2",
+    "name": "Brilliant-Bright Moon Box 2",
+    "sheetName": "Moon 2",
+    "releaseDate": "Release Date: September 2022",
+    "year": "2022"
+  },
+  {
+    "id": "Moon_3",
+    "name": "Brilliant-Bright Moon Box 3",
+    "sheetName": "Moon 3",
+    "releaseDate": "Release Date: March 2023",
+    "year": "2023"
+  },
+  {
+    "id": "Moon_4",
+    "name": "Brilliant-Bright Moon Box 4",
+    "sheetName": "Moon 4",
+    "releaseDate": "Release Date: November 2023",
+    "year": "2023"
+  },
+  {
+    "id": "Moon_5",
+    "name": "Brilliant-Bright Moon Box 5",
+    "sheetName": "Moon 5",
+    "releaseDate": "Release Date: April 12, 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Moon_6",
+    "name": "Brilliant-Bright Moon Box 6",
+    "sheetName": "Moon 6",
+    "releaseDate": "Release Date: September 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Moon_7",
+    "name": "Brilliant-Bright Moon Box 7",
+    "sheetName": "Moon 7",
+    "releaseDate": "Release Date: March 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Moon_8",
+    "name": "Brilliant-Bright Moon Box 8",
+    "sheetName": "Moon 8",
+    "releaseDate": "Release Date: June 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Moon_9",
+    "name": "Brilliant-Bright Moon Box 9",
+    "sheetName": "Moon 9",
+    "releaseDate": "Release Date: September 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Moon_10",
+    "name": "Brilliant-Bright Moon Box 10",
+    "sheetName": "Moon 10",
+    "releaseDate": "Release Date: December 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Moon_11",
+    "name": "Brilliant-Bright Moon Box 11",
+    "sheetName": "Moon 11",
+    "releaseDate": "Release Date: April 2026",
+    "year": "2026"
+  },
+  {
+    "id": "Rainbow_1",
+    "name": "Rainbow Box 1",
+    "sheetName": "Rainbow 1",
+    "releaseDate": "Release Date: June 2021",
+    "year": "2021"
+  },
+  {
+    "id": "Rainbow_2",
+    "name": "Rainbow Box 2",
+    "sheetName": "Rainbow 2",
+    "releaseDate": "Release Date: November 2022",
+    "year": "2022"
+  },
+  {
+    "id": "Rainbow_3",
+    "name": "Rainbow Box 3",
+    "sheetName": "Rainbow 3",
+    "releaseDate": "Release Date: August 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Rainbow_4",
+    "name": "Rainbow Box 4",
+    "sheetName": "Rainbow 4",
+    "releaseDate": "Release Date: February 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Rainbow_5",
+    "name": "Rainbow Pack Series 5",
+    "sheetName": "Rainbow 5",
+    "releaseDate": "Release Date: November 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fun_Moments_1",
+    "name": "Fun Moments Box 1",
+    "sheetName": "Fun Moments 1",
+    "releaseDate": "Release Date: December 2023",
+    "year": "2023"
+  },
+  {
+    "id": "Fun_Moments_2",
+    "name": "Fun Moments Box 2",
+    "sheetName": "Fun Moments 2",
+    "releaseDate": "Release Date: June 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Fun_Moments_3",
+    "name": "Fun Moments Box 3",
+    "sheetName": "Fun Moments 3",
+    "releaseDate": "Release Date: October 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Fun_Moments_4",
+    "name": "Fun Moments Box 4",
+    "sheetName": "Fun Moments 4",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fun_Moments_5",
+    "name": "Fun Moments Box 5",
+    "sheetName": "Fun Moments 5",
+    "releaseDate": "Release Date:  July 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fun_Moments_6",
+    "name": "Fun Moments Box 6",
+    "sheetName": "Fun Moments 6",
+    "releaseDate": "Release Date: November 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fun_Moments_7",
+    "name": "Fun Moments Box 7",
+    "sheetName": "Fun Moments 7",
+    "releaseDate": "Release Date: March 2026",
+    "year": "2026"
+  },
+  {
+    "id": "Adventure_Trip_1",
+    "name": "Adventure Trip Suitcase 1",
+    "sheetName": "Adventure Trip 1",
+    "releaseDate": "Release Date: December 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Adventure_Trip_2",
+    "name": "Adventure Trip Suitcase 2",
+    "sheetName": "Adventure Trip 2",
+    "releaseDate": "Release Date: Not supplied in provided list",
+    "year": ""
+  },
+  {
+    "id": "Adventure_Trip_2_Gift",
+    "name": "Adventure Trip Suitcase 2 Special Gift",
+    "sheetName": "Adventure Trip 2 Gift",
+    "releaseDate": "Release Date: September 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Pony_Life_1",
+    "name": "Pony Life 1 Box",
+    "sheetName": "Pony Life 1",
+    "releaseDate": "Release Date: August 2023",
+    "year": "2023"
+  },
+  {
+    "id": "Pony_Life_2",
+    "name": "Pony Life 2 Box",
+    "sheetName": "Pony Life 2",
+    "releaseDate": "Release Date: June 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fortune_s_Departure_1",
+    "name": "Fortune\u2019s Departure Gift Box 1",
+    "sheetName": "Fortune\u2019s Departure 1",
+    "releaseDate": "Release Date: December 2024",
+    "year": "2024"
+  },
+  {
+    "id": "Fortune_s_Departure_2",
+    "name": "Fortune\u2019s Departure Gift Box 2",
+    "sheetName": "Fortune\u2019s Departure 2",
+    "releaseDate": "Release Date: January 2026",
+    "year": "2026"
+  },
+  {
+    "id": "Equestria_Girls_1",
+    "name": "Equestria Girls 1 Box",
+    "sheetName": "Equestria Girls 1",
+    "releaseDate": "Release Date: October 2024",
+    "year": "2024"
+  },
+  {
+    "id": "MLP_Blister",
+    "name": "MLP Blister Cards",
+    "sheetName": "MLP Blister",
+    "releaseDate": "Release Date: Mixed promo releases",
+    "year": ""
+  },
+  {
+    "id": "MLP_INT",
+    "name": "MLP INT Cards",
+    "sheetName": "MLP INT",
+    "releaseDate": "Release Date: English-exclusive promo mini-set",
+    "year": ""
+  },
+  {
+    "id": "MLP_Other",
+    "name": "MLP Other Cards",
+    "sheetName": "MLP Other",
+    "releaseDate": "Release Date: Mixed promo/event releases",
+    "year": ""
+  },
+  {
+    "id": "MLP_Promo",
+    "name": "MLP Promotional Cards",
+    "sheetName": "MLP Promo",
+    "releaseDate": "Release Date: 2022\u20132025 promo run",
+    "year": "2022"
+  },
+  {
+    "id": "Twilight_Sparkle_Deck",
+    "name": "Twilight Sparkle Starter Deck",
+    "sheetName": "Twilight Sparkle Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fluttershy_Deck",
+    "name": "Fluttershy Starter Deck",
+    "sheetName": "Fluttershy Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Pinkie_Pie_Deck",
+    "name": "Pinkie Pie Starter Deck",
+    "sheetName": "Pinkie Pie Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Apple_Jack_Deck",
+    "name": "Apple Jack Starter Deck",
+    "sheetName": "Apple Jack Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Rainbow_Dash_Deck",
+    "name": "Rainbow Dash Starter Deck",
+    "sheetName": "Rainbow Dash Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Rarity_Deck",
+    "name": "Rarity Starter Deck",
+    "sheetName": "Rarity Deck",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Starter_Booster",
+    "name": "Starter Booster Pack",
+    "sheetName": "Starter Booster",
+    "releaseDate": "Release Date: April 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Fantasy_Wonderland",
+    "name": "Fantasy Wonderland Box",
+    "sheetName": "Fantasy Wonderland",
+    "releaseDate": "Release Date: May 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Discord_Moment",
+    "name": "Discord Moment Box",
+    "sheetName": "Discord Moment",
+    "releaseDate": "Release Date: July 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Nightmere_Night",
+    "name": "Nightmere Night Box",
+    "sheetName": "Nightmere Night",
+    "releaseDate": "Release Date: October 2025",
+    "year": "2025"
+  },
+  {
+    "id": "Dispel_Cold",
+    "name": "Dispel Cold Box",
+    "sheetName": "Dispel Cold",
+    "releaseDate": "Release Date: January 2026",
+    "year": "2026"
+  },
+  {
+    "id": "MLPG_Promo",
+    "name": "MLPG Promotional Cards",
+    "sheetName": "MLPG Promo",
+    "releaseDate": "Separate playable TCG promo mini-set.",
+    "year": ""
+  },
+  {
+    "id": "MLPG_Other",
+    "name": "MLPG Others Cards",
+    "sheetName": "MLPG Other",
+    "releaseDate": "Separate playable TCG other-card bucket.",
+    "year": ""
+  }
+]
