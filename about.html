@@ -5,14 +5,37 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>About / Donate | MLP TCG Collection Vault</title>
 <link rel="stylesheet" href="style.css">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELQSW0TEBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELQSW0TEBE', {
+    page_title: 'About Page',
+    page_path: '/about.html'
+  });
+
+  function trackLink(eventName) {
+    if (typeof gtag === 'function') {
+      gtag('event', eventName);
+    }
+  }
+</script>
+
 </head>
 <body class="about-page">
 <header class="about-hero">
   <nav class="about-top-actions">
-    <a href="index.html">← Back to Project</a>
-    <a href="https://github.com/PotterService/MLP-TCG-Collection-Vault" target="_blank" rel="noopener">See Project on GitHub</a>
-    <a href="https://www.kayouofficial.com/pages/us-new-releases-mlp" target="_blank" rel="noopener">Official Kayou MLP Page</a>
-    <a href="https://www.reddit.com/r/mylittlepony/comments/1tmfljg/updated_complete_checklists_of_every_kayous_mlp/" target="_blank" rel="noopener">Goda’s Reddit Post</a>
+    <a href="index.html" onclick="trackLink('about_back_to_project')">← Back to Project</a>
+    <a href="https://github.com/PotterService/MLP-TCG-Collection-Vault" target="_blank" rel="noopener" onclick="trackLink('github_click')">See Project on GitHub</a>
+    <a href="https://www.kayouofficial.com/pages/us-new-releases-mlp" target="_blank" rel="noopener" onclick="trackLink('kayou_link_click')">Official Kayou MLP Page</a>
+    <a href="https://www.reddit.com/r/mylittlepony/comments/1tmfljg/updated_complete_checklists_of_every_kayous_mlp/" target="_blank" rel="noopener" onclick="trackLink('goda_reddit_click')">Goda’s Reddit Post</a>
   </nav>
   <h1>About / Donate</h1>
   <p>MLP TCG Collection Vault is a fan-made local checklist and collection interface designed by Bow for collectors who want an easier way to track Kayou My Little Pony cards.</p>
@@ -63,7 +86,7 @@
     </p>
     <p>
       Please show them some love on the original Reddit post:
-      <a href="https://www.reddit.com/r/mylittlepony/comments/1tmfljg/updated_complete_checklists_of_every_kayous_mlp/" target="_blank" rel="noopener">
+      <a href="https://www.reddit.com/r/mylittlepony/comments/1tmfljg/updated_complete_checklists_of_every_kayous_mlp/" target="_blank" rel="noopener" onclick="trackLink('goda_reddit_click_body')">
         Updated complete checklists of every Kayou’s MLP cards sets
       </a>.
     </p>
@@ -73,7 +96,7 @@
     <h2>Official Kayou Link</h2>
     <p>
       For official Kayou My Little Pony releases and product information, visit:
-      <a href="https://www.kayouofficial.com/pages/us-new-releases-mlp" target="_blank" rel="noopener">
+      <a href="https://www.kayouofficial.com/pages/us-new-releases-mlp" target="_blank" rel="noopener" onclick="trackLink('kayou_link_click_body')">
         Kayou Official — My Little Pony New Releases
       </a>.
     </p>
@@ -119,11 +142,11 @@
     <h2>Project Links</h2>
     <p>
       Online Version:
-      <a href="https://MLP.PotterService.com" target="_blank" rel="noopener">https://MLP.PotterService.com</a>
+      <a href="https://MLP.PotterService.com" target="_blank" rel="noopener" onclick="trackLink('online_version_click')">https://MLP.PotterService.com</a>
     </p>
     <p>
       GitHub:
-      <a href="https://github.com/PotterService/MLP-TCG-Collection-Vault" target="_blank" rel="noopener">https://github.com/PotterService/MLP-TCG-Collection-Vault</a>
+      <a href="https://github.com/PotterService/MLP-TCG-Collection-Vault" target="_blank" rel="noopener" onclick="trackLink('github_click_project_links')">https://github.com/PotterService/MLP-TCG-Collection-Vault</a>
     </p>
   </section>
 
