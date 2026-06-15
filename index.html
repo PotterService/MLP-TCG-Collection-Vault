@@ -5,7 +5,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MLP Kayou Collection Tracker</title>
 <link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELQSW0TEBE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELQSW0TEBE');
+</script>
 </head>
+
 <body>
 <header class="app-header">
   <div class="brand">
@@ -15,11 +26,14 @@
       <p>Built from Goda's collector checklist • updated by Bow</p>
     </div>
   </div>
-  <div class="header-actions">
-<a class="btn about-donate-btn" href="about.html">About/Donate</a>
 
+  <div class="header-actions">
+    <a class="btn about-donate-btn" href="about.html">About/Donate</a>
     <button id="backupBtn">Backup JSON</button>
-    <label class="btn">Import Backup<input id="importBackup" type="file" accept="application/json" hidden></label>
+    <label class="btn">
+      Import Backup
+      <input id="importBackup" type="file" accept="application/json" hidden>
+    </label>
   </div>
 </header>
 
@@ -28,7 +42,11 @@
   <article><b id="statOwned">0</b><span>Unique Owned</span></article>
   <article><b id="statMissing">0</b><span>Missing</span></article>
   <article><b id="statDupes">0</b><span>Duplicates</span></article>
-  <article class="wide"><b id="statPercent">0%</b><span>Completion</span><div class="bar"><i id="bar"></i></div></article>
+  <article class="wide">
+    <b id="statPercent">0%</b>
+    <span>Completion</span>
+    <div class="bar"><i id="bar"></i></div>
+  </article>
 </section>
 
 <nav class="tabs">
@@ -68,14 +86,17 @@
 
 <dialog id="cardDialog">
   <button id="closeDialog" class="close">×</button>
+
   <div class="detail">
     <div class="imagePanel">
       <div id="bigImage" class="bigImage">No Image</div>
       <button id="findImageBtn" type="button">Find Image Online</button>
     </div>
+
     <form id="cardForm">
       <h2 id="detailTitle">Card</h2>
       <input id="editId" type="hidden">
+
       <div class="formGrid">
         <label>Card Name<input id="cardName"></label>
         <label>Printed Code<input id="cardNumber"></label>
@@ -89,11 +110,14 @@
         <label>Total Qty<input id="quantity" type="number" min="0"></label>
         <label>Duplicate Count<input id="duplicateCount" type="number" min="0"></label>
       </div>
+
       <div class="checks">
         <label><input id="owned" type="checkbox"> Owned</label>
         <label><input id="wishlist" type="checkbox"> Wishlist / Need Priority</label>
       </div>
+
       <label>Notes<textarea id="notes"></textarea></label>
+
       <div class="formBtns">
         <button type="submit" class="primary">Save</button>
         <button type="button" id="plusEnglishBtn">+1 English</button>
